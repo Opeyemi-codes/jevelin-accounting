@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.preNav {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.preNav p{
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+}
+.hrr {
+    clear: both;
+    visibility: hidden;
+}
+.navMain {
+    height: 80px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    display: block;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+.jevAcc{
+    padding-top: 20px;
+    font-size: 24px;
+}
+.jeve {
+    font-weight: 800;
+}
+.navul {
+    float: right;
+    padding-top: 30px;
+}
+.navul li {
+    list-style-type: none;
+    display: inline;
+    font-size: small;
+}
+li :link {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+li :active {
+    font-weight: 800;
+    border-bottom:  2px solid blue;
+    padding-bottom: 10px;
+}
+li :hover {
+    font-weight: 800;
+}
+li :visited {
+    color: black;
+}
+.homebg {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    height: 500px;
+    padding-top: 15%;
+}
+#home {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    
+}
+.homeMod {
+    font-size: 50px;
+    font-weight: 700;
+}
+.hom {
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+}
+.homtex {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.btnSer {
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.btnHir {
+    background-color: transparent;;
+    border: 1px solid #F2F2F2;
+    padding: 20px 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 800;
+}
+.formSec {
+    background-color: white;
+    width: 35%;
+    float: right;
+    margin-right: 50px;
+    border: 1px solid white;
+    box-shadow: 1px 15px 5px 0px #F0F0F0;
+}
+input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-style: italic; 
+}
+#form {
+    padding: 40px 40px;
+}
+.formhd {
+    color: black;
+    margin: 15px;
+}
+.ruler {
+    width: 3px;
+    height: 25px;
+    background-color: skyblue;
+    float: left;
+    margin-right: 10px;
+}
+select {
+    padding: 20px 160px 20px 20px;
+}
+.formTxt {
+    color: #969595;
+    margin: 20px;
+    font-size: 14px; 
+}
+.sendA {
+    width: 100%;
+    height: 50px;
+    background-color: #436dfe;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #436dfe;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.service {
+    margin-top: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subService {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.subHead {
+     color: A3A3A3;
+}
+.subService h2{
+    font-size: 40px;
+    margin: 20px;
+}
+.serviceFlat {
+   margin-top: 50px;
+}
+.servCard {
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    padding: 20px 15px 70px 15px;
+}
+.servCard h3 {
+    padding: 20px 5px; 
+    font-size: medium;
+}
+.servCard p {
+    font-size: 16px;
+    padding: 10px;
+}
+.serviceFlat :hover {
+    box-shadow: 5px 15px 15px 5px #F2F2F2;
+}
+.cardImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+.aboutus {
+    margin-top: 50px;
+}
+.aboutPone {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.aboutImg {
+    width: 40%;
+    height: 50%;
+    float: left;
+}
+.aboutPtwo {
+    width: 50%;
+    height: 30%;
+    margin-top: 10%;
+    float: left;
+    margin-left: 5%;
+}
+.aboutPtwo p {
+    color: rgb(88, 84, 84);
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 90%;
+}
+.aboutPtwo h1 {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+.lrn {
+    color: white;
+    background-color: #2b5bfa;
+    padding: 15px 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.aboutPthree {
+    background-image: url('../images/backg.jpg');
+    height: 400px;
+}
+.aboutPthreeP {
+    color: rgb(88, 84, 84);
+    font-size: 18px;
+    padding-top: 100px;
+    text-align: center;
+}
+.aboutPthreeH {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.abtTab {
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid aliceblue;
+    box-shadow: 5px 20px 20px 0px #EAEAEA;
+}
+.abtA {
+   float: left;
+   width: 32%;
+   padding-top: 70px;
+   text-align: center;
+}
+.abtB {
+    float: left;
+    width: 34%;
+    padding-top: 70px;
+    padding-bottom: 73px;
+    text-align: center;
+    border: 1px solid aliceblue;
+}
+.abtC {
+    float: left;
+    width: 32%;
+    padding-top: 70px;
+    text-align: center;
+}
+.secP {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/*WHY US*/
+
+.whyus {
+    margin-top: 150px;
+}
+.whyPone {
+    width: 50%;
+    margin-left: 5%;
+    float: left;
+    padding-top: 50px;
+}
+.whyTitle {
+    color: #A7A7A7;
+    font-size: 16px;
+}
+.whyHead {
+    font-size: 38px;
+    margin: 20px 0;
+}
+.whytxt {
+    color: #A7A7A7;
+    font-size: 18px;
+}
+.whyb {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.whyb p {
+    color: #A2A2A2;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.whyImg {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+    position: relative;
+}
+.whyImg img {
+    position: absolute;
+    right: 5px;
+}
+/*TESTIMONIALS*/
+
+.testimonial {
+    margin-top: 15%;
+    background-color: #F2F2F2;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+.testH {
+    padding: 100px 0 50px 0; 
+}
+.testH h2 {
+    font-size: 38px;
+    padding-top: 20px;
+}
+.testimonies {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.testimonOne {
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 300px;
+    color: #666666;
+}
+.testimonTwo {
+    width: 50%;
+    float: right;
+    background-color: white;
+    height: 300px;
+    
+    color: #666666;
+}
+.testCard {
+    padding: 50px 50px 0 50px;
+    text-align: left;
+    border: 1px solid #F2F2F2;
+    background-color: white;
+    box-shadow: 0 20px 20px 0px #EAEAEA;
+
+}
+.testCard img {
+    margin-bottom: 30px;
+}
+.testCard p {
+    margin-bottom: 30px;
+}
+.testCarD h4 {
+    color: black;
+}
+.testCarD p {
+    font-size: 14px;
+}
+.quote {
+    font-size: 50px;
+    color: blue;
+    font-weight: 800;
+}
+.slide {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.but {
+
+}
+.but div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: black;
+    margin: 5px;
+}
+.slid {
+    margin-top: 50px;
+}
+.slid p {
+    width: 180px;
+    height: 170px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.slid p {
+
+}
+
+/*PRICE*/
+
+.priceSec {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    border: 1px solid #A7A7A7;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px 15px;
+}
+.priceTitle {
+    font-size: 34px;
+    padding-top: 20px;
+
+}
+.tLeft {
+    background-color: #F9FAFF;
+    border: 1px solid #A2A2A2; 
+}
+.tRight {
+    border: 1px solid #436DFE;
+    background-color: white;
+
+}
+.contact {
+    margin-top: 30px;
+    padding: 15px 300px;
+    font-weight: 800; 
+    color: white;
+    background-color: #436DFE;
+    border: none;
+    border-radius: 5px;
+    border: 4px solid #436DFE;
+    margin-bottom: 100px;
+}
+.prefoot {
+    background-image: url('../images/beforefoot.jpg');
+    height: 245px;
+    background-size: contain;
+    position: relative;
+}
+.preFoot {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0;
+    color: white;
+}
+.prefootDoc {
+    width: 50%;
+    float: left;
+    
+}
+.prefootDoc h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.prefootDoc p {
+    color:#838383;
+}
+.prefootbut {
+    width: 50%;
+    float: right;
+
+}
+.fbut {
+    color : white;
+    background-color: #00BE55;
+    padding: 20px 30px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 100px;
+}
+footer {
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.futSec {
+    padding: 80px 0;
+}
+.footSecOne {
+    width: 40%;
+    float: left;
+}
+.jevH {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.pOne {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.pTwo {
+    margin-bottom: 50px;
+    color: #838383;
+    font-size: 16px;
+}
+.copyright {
+    color: #838383;
+    font-size: small;
+}
+footer ul {
+    margin-top: 30px;
+}
+footer li {
+    list-style-type: none;
+    margin: 10px 0;
+    color: #838383;
+    font-size: 16px;
+}
+.foott {
+    float: right;
+    width: 50%;
+    margin-left: 10%;
+}
+.footSecTwo {
+    float:left ;
+    width: 30%;
+    margin-left: 10%;
+}
+.footSecTh {
+    float: left;
+    width: 20%;
+}
+.footSecFr {
+    float: left;
+    width: 30%;;
+}
+
